@@ -1,9 +1,8 @@
 import { Favorite, FavoriteBorder, MoreVert, Share} from '@mui/icons-material'
 import { Avatar, Card, CardActions, CardContent, CardHeader, CardMedia, Checkbox, IconButton, Typography } from '@mui/material'
-import PostImage from "../assets/pexels-rovshan-nazirli-20147829.jpg"
 import React from 'react'
 
-const post = () => {
+const Post = () => {
   return (
     <div>
           <Card sx={{m:2}}>
@@ -45,4 +44,4 @@ At the core of every successful business lies a clear vision, a well-defined mis
   )
 }
 
-export default post
+export default Post

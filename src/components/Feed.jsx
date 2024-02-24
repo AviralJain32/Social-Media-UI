@@ -1,5 +1,5 @@
 import { Box } from "@mui/material"
-import Post from "./post"
+import Post from "./Post"
 
 const Feed = () => {
   return (
